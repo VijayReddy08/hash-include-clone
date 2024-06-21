@@ -10,4 +10,4 @@
 
 **21-06-2024**
 
-- Completed all sections in courses page
+- Completed all sections in courses page and about us page

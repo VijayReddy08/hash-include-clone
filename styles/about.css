@@ -1,0 +1,95 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+
+body {
+  background-color: #161616;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+/* About us and Our team section starts here */
+section.au-and-ot-section {
+  background-color: #212121;
+  max-width: 96%;
+  margin: auto;
+}
+/* About us and Our team section ends here */
+
+/* About us section starts here */
+
+section.about-us-section {
+  max-width: 80%;
+  margin: auto;
+}
+
+span.yellow-line {
+  width: 41px;
+  display: inline-block;
+  height: 4px;
+  background: #f8da64;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+button.learn-more-btn1 {
+  border: 1px solid #f8da64;
+  padding: 5px 31px;
+}
+
+button.learn-more-btn1:hover {
+  background: #f8da64;
+}
+
+button.learn-more-btn1 a {
+  color: #f8da64;
+  font-size: 15px;
+}
+
+button.learn-more-btn1:hover a {
+  color: #000;
+}
+
+div.hashinclude-stats-card h2 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+div.hashinclude-stats-card h2 span {
+  color: #f8da63;
+}
+/* About us section ends here */
+
+/* Our team section starts here */
+div.member-details {
+  position: relative;
+  top: 134px;
+  right: 82px;
+  text-align: center;
+}
+
+div.member-details h4 {
+  font-size: 22px;
+  margin-bottom: 3px;
+}
+
+div.member-details p {
+  font-size: small;
+}
+/* Our team section ends here */
+
+/* footer section starts here */
+
+footer.footer-section {
+  background-image: url("../assets/footer-bg.cc00989cacc2122a.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.contact-info p,
+div.contact-info a {
+  color: #0b7077;
+  text-decoration: none;
+}
+
+/* footer section ends here */
