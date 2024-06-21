@@ -39,6 +39,7 @@ div.chatbot {
     bottom: 25px;
   }
 }
+/* chatbot animation ends here */
 
 /* header section starts here */
 section.header-section {
@@ -91,7 +92,7 @@ div.course-details {
 
 div.student-card-icons {
   top: -20px;
-  left: 10%;
+  left: 11%;
   padding: 10px 14px;
 }
 

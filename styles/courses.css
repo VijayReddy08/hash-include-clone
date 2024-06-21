@@ -1,0 +1,120 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #161616;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+/* all courses section starts here */
+div.course-details {
+  background-color: #212121;
+}
+
+div.student-card-icons {
+  top: -20px;
+  left: 11%;
+  padding: 10px 14px;
+}
+
+div.details {
+  font-size: 14px;
+  min-height: 223px;
+}
+
+div.learn-more-btn button {
+  border: 1px solid #f8da64;
+}
+
+div.learn-more-btn button:hover {
+  background: #f8da64;
+}
+
+div.learn-more-btn a {
+  color: #f8da64;
+  font-size: 15px;
+}
+
+div.learn-more-btn button:hover a {
+  color: #000;
+}
+/* all courses section ends here */
+
+/* front end course section starts here */
+
+div.fe-course-container {
+  background-color: #212121;
+}
+
+div.enroll-now-btn button {
+  border: 1px solid #f8da64;
+}
+
+div.enroll-now-btn button:hover {
+  background: #f8da64;
+}
+
+div.enroll-now-btn button {
+  color: #f8da64;
+  font-size: 17px;
+  padding: 11px 24px;
+}
+
+section.fe-course-section p {
+  font-size: 14px;
+}
+
+ul.course-content-list li {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+ul.course-content-list {
+  /* min-width: 70px; */
+  margin-left: 30px;
+}
+
+ul.course-content-list li span {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+div.cpa-card {
+  background-color: #3442d9;
+}
+
+ul.cpa-list {
+  min-height: 188px;
+}
+
+ul.cpa-list li {
+  margin-top: 22px;
+}
+
+div.explore-other-courses-links a {
+  color: #f8da63;
+  font-size: 19px;
+}
+
+/* front end course section ends here */
+
+/* footer section starts here */
+
+footer.footer-section {
+  background-image: url("../assets/footer-bg.cc00989cacc2122a.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.contact-info p,
+div.contact-info a {
+  color: #0b7077;
+  text-decoration: none;
+}
+
+/* footer section ends here */
