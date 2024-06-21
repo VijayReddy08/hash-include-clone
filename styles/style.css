@@ -1,0 +1,270 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+
+body {
+  background-color: #161616;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+/* chatbot animation starts here */
+div.chatbot {
+  position: fixed;
+  /* bottom: 30px; */
+  right: 0;
+  z-index: 1;
+  padding-right: 15px;
+  transition: all ease-in;
+  animation: chatbot 4s infinite;
+}
+
+@keyframes chatbot {
+  0% {
+    right: 0px;
+    bottom: 25px;
+  }
+  28% {
+    right: 0px;
+    bottom: 0px;
+  }
+  50% {
+    right: 0px;
+    bottom: 25px;
+  }
+  78% {
+    right: 0px;
+    bottom: 0px;
+  }
+  100% {
+    right: 0px;
+    bottom: 25px;
+  }
+}
+
+/* header section starts here */
+section.header-section {
+  border-radius: 0 0 45px 45px;
+}
+
+div.explore-more-section
+  div.explore-path-and-banner-sub-image
+  .explore-path-btn {
+  background-color: #f8da64;
+}
+
+div.explore-more-circle {
+  background-color: #624bff;
+  padding: 30px;
+  left: 42%;
+  bottom: -18%;
+}
+
+div.popular-courses-dropdown-container {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  div.banner-sub-image {
+    max-width: 165px;
+  }
+
+  div.explore-more-circle {
+    padding: 15px;
+    max-width: 140px;
+    left: 37%;
+    bottom: -8%;
+  }
+
+  /* div.popular-courses-navbar {
+    display: none;
+  } */
+
+  /* div.popular-courses-dropdown-container {
+    display: block;
+  } */
+}
+/* header section ends here */
+
+/* popular courses section starts here */
+div.course-details {
+  background-color: #212121;
+}
+
+div.student-card-icons {
+  top: -20px;
+  left: 10%;
+  padding: 10px 14px;
+}
+
+div.details {
+  font-size: 14px;
+  min-height: 223px;
+}
+
+div.learn-more-btn button {
+  border: 1px solid #f8da64;
+}
+
+div.learn-more-btn button:hover {
+  background: #f8da64;
+}
+
+div.learn-more-btn a {
+  color: #f8da64;
+  font-size: 15px;
+}
+
+div.learn-more-btn button:hover a {
+  color: #000;
+}
+
+/* popular courses section ends here */
+
+/* why us section starts here */
+
+p.why-us-intro {
+  max-width: 60%;
+}
+
+div.course-addons-container {
+  background: #212121;
+}
+
+/* why us section ends here */
+
+/* why we stand out section starts here */
+
+section.why-we-stand-out-section {
+  background: #212121;
+}
+
+span.yellow-line {
+  width: 41px;
+  display: inline-block;
+  height: 4px;
+  background: #f8da64;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+section.why-we-stand-out-section h2 {
+  font-size: 44px;
+  font-weight: 600;
+}
+
+p.why-we-so-description {
+  min-height: 96px;
+}
+
+/* why we stand out section ends here */
+
+/* Who is hash include for section starts here */
+
+div.who-is-hashinclude-for-description span {
+  background: #d4e1ff;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 8px;
+  color: #0b7077;
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+ul.who-is-hashinclude-for-list {
+  list-style-image: url("../assets/tick-icon.svg");
+}
+
+ul.who-is-hashinclude-for-list li {
+  margin-bottom: 4%;
+  padding-left: 10px;
+}
+
+/* Who is hash include for section ends here */
+
+/* About us section starts here  */
+
+section.about-us-section {
+  background-color: #212121;
+}
+
+button.learn-more-btn1 {
+  border: 1px solid #f8da64;
+  padding: 5px 31px;
+}
+
+button.learn-more-btn1:hover {
+  background: #f8da64;
+}
+
+button.learn-more-btn1 a {
+  color: #f8da64;
+  font-size: 15px;
+}
+
+button.learn-more-btn1:hover a {
+  color: #000;
+}
+
+div.hashinclude-stats-card h2 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+div.hashinclude-stats-card h2 span {
+  color: #f8da63;
+}
+
+/* About us section ends here  */
+
+/* Testimonials section starts here */
+
+div.testimonial-cards-container div.testimonial-card {
+  background: linear-gradient(
+    143deg,
+    rgba(32, 32, 32, 1) 45%,
+    rgb(49 40 108) 100%
+  );
+}
+
+/* Testimonials section ends here */
+
+/* Application and offer section starts here */
+
+section.application-section .application-container {
+  background-image: url("../assets/time-bg.50c998895fad7be4.svg");
+  background-color: #624bff;
+  background-repeat: no-repeat;
+  background-position: 126px 127px;
+}
+
+/* ul.application-section-list {
+  list-style-image: url("../assets/blue-tick.svg");
+  margin-bottom: 15px;
+} */
+
+a.apply-btn {
+  background: #fff;
+  color: #0b7077;
+  border-radius: 9px;
+  padding: 1.6% 3%;
+  line-height: 1.5;
+}
+
+/* Application and offer section ends here */
+
+/* footer section starts here */
+
+footer.footer-section {
+  background-image: url("../assets/footer-bg.cc00989cacc2122a.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.contact-info p,
+div.contact-info a {
+  color: #0b7077;
+  text-decoration: none;
+}
+
+/* footer section ends here */
