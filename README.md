@@ -11,3 +11,7 @@
 **21-06-2024**
 
 - Completed all sections in courses page and about us page
+
+**22-06-2024**
+
+- Completed all sections in career guidance page

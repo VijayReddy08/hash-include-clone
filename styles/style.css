@@ -14,23 +14,11 @@ div.chatbot {
   z-index: 1;
   padding-right: 15px;
   transition: all ease-in;
-  animation: chatbot 4s infinite;
+  animation: chatbot 1s infinite alternate;
 }
 
 @keyframes chatbot {
   0% {
-    right: 0px;
-    bottom: 25px;
-  }
-  28% {
-    right: 0px;
-    bottom: 0px;
-  }
-  50% {
-    right: 0px;
-    bottom: 25px;
-  }
-  78% {
     right: 0px;
     bottom: 0px;
   }

@@ -30,24 +30,6 @@ span.yellow-line {
   margin-right: 15px;
 }
 
-button.learn-more-btn1 {
-  border: 1px solid #f8da64;
-  padding: 5px 31px;
-}
-
-button.learn-more-btn1:hover {
-  background: #f8da64;
-}
-
-button.learn-more-btn1 a {
-  color: #f8da64;
-  font-size: 15px;
-}
-
-button.learn-more-btn1:hover a {
-  color: #000;
-}
-
 div.hashinclude-stats-card h2 {
   font-size: 50px;
   font-weight: 500;

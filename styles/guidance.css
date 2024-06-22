@@ -1,0 +1,128 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+
+body {
+  background-color: #161616;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Guidance title section starts here */
+
+section.guidance-title-section {
+  background-image: url("../assets/carrer-page-bg.f90597aae995a987.svg");
+}
+
+span.guidance-yellow-line {
+  width: 60px;
+  display: inline-block;
+  height: 2px;
+  background: #f8da64;
+}
+/* Guidance title section ends here */
+
+/* Queries and form section starts here */
+
+/* queries section starts here */
+
+div.queries-inner-container {
+  background-color: #212121;
+}
+
+span.query-icon {
+  background-color: #d2e6e4;
+  padding: 10px;
+  border-radius: 50%;
+  min-width: 42px;
+}
+
+div.answer-and-like-container {
+  background-color: #000;
+}
+
+div.answer-and-like-container p.answer-container {
+  border-left: 3px solid #3caa56;
+}
+
+/* queries section starts here */
+
+/* Form section starts here */
+div.form-container {
+  background-color: #212121;
+}
+
+div.form-container form p:nth-child(odd) {
+  margin-bottom: 5px;
+}
+
+div.form-container form label {
+  font-size: 15px;
+}
+
+div.form-container form input {
+  background-color: #212121;
+  color: #fff;
+  border: 0;
+  border-bottom: 1px solid white;
+  width: 94%;
+  padding: 4px;
+  padding-left: 0;
+}
+
+input[type="month"]::-webkit-calendar-picker-indicator {
+  background-color: #fff;
+}
+
+div.form-container form input[type="month"] {
+  color: #fff;
+  padding-left: 0;
+  padding: 3px;
+}
+
+div.form-container form textarea {
+  background-color: #212121;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  resize: vertical;
+  padding: 3px;
+  color: #fff;
+}
+
+div.form-container form select {
+  background-color: #212121;
+  color: #fff;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  width: 95%;
+  padding: 2px;
+}
+
+button.send-btn {
+  border: 1px solid #f8da64;
+  color: #f8da64;
+  padding: 6px 52px;
+  border-radius: 30px;
+}
+
+button.send-btn:hover {
+  border: 1px solid #f8da64;
+  color: #f8da64;
+}
+/* Form section ends here */
+
+/* Queries and form section ends here */
+
+/* footer section starts here */
+
+footer.footer-section {
+  background-image: url("../assets/footer-bg.cc00989cacc2122a.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.contact-info p,
+div.contact-info a {
+  color: #0b7077;
+  text-decoration: none;
+}
+
+/* footer section ends here */
