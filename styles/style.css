@@ -51,6 +51,8 @@ div.popular-courses-dropdown-container {
   display: none;
 }
 
+/* header section Media Queries starts here */
+
 @media screen and (max-width: 576px) {
   div.banner-sub-image {
     max-width: 165px;
@@ -59,18 +61,12 @@ div.popular-courses-dropdown-container {
   div.explore-more-circle {
     padding: 15px;
     max-width: 140px;
-    left: 37%;
+    left: 38%;
     bottom: -8%;
   }
-
-  /* div.popular-courses-navbar {
-    display: none;
-  } */
-
-  /* div.popular-courses-dropdown-container {
-    display: block;
-  } */
 }
+/* header section Media Queries ends here */
+
 /* header section ends here */
 
 /* popular courses section starts here */
@@ -106,10 +102,45 @@ div.learn-more-btn button:hover a {
   color: #000;
 }
 
+div.popular-courses-dropdown-container select.popular-courses-dropdown {
+  max-width: 90%;
+  margin: auto;
+  color: #fff;
+}
+
+div.popular-courses-dropdown-container
+  select.popular-courses-dropdown.form-select {
+  --bs-form-select-bg-img: url(../assets/select-expand-arrow.png);
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-image: var(--bs-form-select-bg-img),
+    var(--bs-form-select-bg-icon, none);
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 20px 18px;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* popular courses Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+}
+/* popular courses Media Queries section starts here */
+
 /* popular courses section ends here */
 
 /* why us section starts here */
-
 p.why-us-intro {
   max-width: 60%;
 }
@@ -117,6 +148,15 @@ p.why-us-intro {
 div.course-addons-container {
   background: #212121;
 }
+
+/* Why us Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  p.why-us-intro {
+    max-width: 95%;
+  }
+}
+/* Why us Media Queries section ends here */
 
 /* why us section ends here */
 
@@ -144,11 +184,26 @@ p.why-we-so-description {
   min-height: 96px;
 }
 
+/* Why we stand out Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  span.yellow-line {
+    height: 3px;
+    margin-right: 10px;
+  }
+
+  section.why-we-stand-out-section h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
+/* Why we stand out Media Queries section ends here */
+
 /* why we stand out section ends here */
 
 /* Who is hash include for section starts here */
 
-div.who-is-hashinclude-for-description span {
+div.who-is-hashinclude-for-description span.training {
   background: #d4e1ff;
   display: inline-block;
   padding: 5px 15px;
@@ -156,10 +211,6 @@ div.who-is-hashinclude-for-description span {
   color: #0b7077;
   margin-bottom: 6px;
   line-height: 1.5;
-}
-
-ul.who-is-hashinclude-for-list {
-  list-style-image: url("../assets/tick-icon.svg");
 }
 
 ul.who-is-hashinclude-for-list li {
@@ -173,6 +224,10 @@ ul.who-is-hashinclude-for-list li {
 
 section.about-us-section {
   background-color: #212121;
+}
+
+p.about-us-info-p {
+  width: 75%;
 }
 
 button.learn-more-btn1 {
@@ -204,6 +259,15 @@ div.hashinclude-stats-card h2 span {
   color: #f8da63;
 }
 
+/* About us Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  p.about-us-info-p {
+    width: 100%;
+  }
+}
+/* About us Media Queries section ends here */
+
 /* About us section ends here  */
 
 /* Testimonials section starts here */
@@ -227,10 +291,10 @@ section.application-section .application-container {
   background-position: 126px 127px;
 }
 
-/* ul.application-section-list {
-  list-style-image: url("../assets/blue-tick.svg");
-  margin-bottom: 15px;
-} */
+div.application-description h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
 
 a.apply-btn {
   background: #fff;
@@ -239,6 +303,20 @@ a.apply-btn {
   padding: 1.6% 3%;
   line-height: 1.5;
 }
+
+/* Application and offer Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  div.application-description h2 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  ul.application-section-list li {
+    font-size: medium;
+  }
+}
+/* Application and offer Media Queries section ends here */
 
 /* Application and offer section ends here */
 
@@ -255,5 +333,14 @@ div.contact-info a {
   color: #0b7077;
   text-decoration: none;
 }
+
+/* Footer Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  footer.footer-section {
+    background-position-x: center;
+  }
+}
+/* Footer Media Queries section ends here */
 
 /* footer section ends here */

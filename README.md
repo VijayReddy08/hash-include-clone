@@ -15,3 +15,7 @@
 **22-06-2024**
 
 - Completed all sections in career guidance page
+
+**23-06-2024**
+
+- Made home page responsive for extra small devices
