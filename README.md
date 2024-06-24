@@ -19,3 +19,7 @@
 **23-06-2024**
 
 - Made home page responsive for extra small devices
+
+**24-06-20024**
+
+- Implemented bootstrap 5 modal in home page and made changes in other pages
