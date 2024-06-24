@@ -44,9 +44,9 @@ div.hashinclude-stats-card h2 span {
 
 /* Our team section starts here */
 div.member-details {
-  position: relative;
-  top: 134px;
-  right: 82px;
+  position: absolute;
+  top: 68px;
+  left: 46px;
   text-align: center;
 }
 

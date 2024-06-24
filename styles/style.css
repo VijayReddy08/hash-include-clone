@@ -47,15 +47,16 @@ div.explore-more-circle {
   bottom: -18%;
 }
 
-div.popular-courses-dropdown-container {
-  display: none;
-}
-
 /* header section Media Queries starts here */
 
 @media screen and (max-width: 576px) {
   div.banner-sub-image {
     max-width: 165px;
+  }
+
+  button.explore-path-btn {
+    padding: 6px 12px;
+    font-size: 14px;
   }
 
   div.explore-more-circle {
@@ -65,11 +66,25 @@ div.popular-courses-dropdown-container {
     bottom: -8%;
   }
 }
+
+@media screen and (min-width: 768px) {
+  div.explore-more-circle {
+    /* padding: 15px; */
+    /* max-width: 140px; */
+    left: 37%;
+    bottom: -18%;
+  }
+}
+
 /* header section Media Queries ends here */
 
 /* header section ends here */
 
 /* popular courses section starts here */
+div.popular-courses-dropdown-container {
+  display: none;
+}
+
 div.course-details {
   background-color: #212121;
 }
@@ -136,7 +151,7 @@ div.popular-courses-dropdown-container
 
 @media screen and (max-width: 576px) {
 }
-/* popular courses Media Queries section starts here */
+/* popular courses Media Queries section ends here */
 
 /* popular courses section ends here */
 
@@ -296,13 +311,108 @@ div.application-description h2 {
   font-weight: 600;
 }
 
-a.apply-btn {
+button.apply-btn {
   background: #fff;
   color: #0b7077;
   border-radius: 9px;
-  padding: 1.6% 3%;
   line-height: 1.5;
+  border: 0;
 }
+
+button.apply-btn:hover {
+  background: #fff;
+  color: #0b7077;
+  border-radius: 9px;
+  line-height: 1.5;
+  border: 0;
+}
+
+/* Form section starts here */
+div.modal-form-container {
+  background-color: #212121;
+}
+
+/* div.form-container form p:nth-child(odd) {
+  margin-bottom: 5px;
+} */
+
+div.modal-form-container form label {
+  font-size: 15px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+div.modal-form-container textarea::placeholder {
+  color: #545353;
+}
+
+div.modal-form-container form input,
+div.modal-form-container form input:focus {
+  background-color: #212121;
+  color: #fff;
+  border: 0;
+  border-bottom: 1px solid white;
+  width: 94%;
+  padding: 4px;
+  padding-left: 0;
+  border-radius: 0;
+}
+
+div.modal-form-container form textarea,
+div.modal-form-container form textarea:focus {
+  background-color: #212121;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  padding: 3px;
+  color: #fff;
+  border-radius: 0;
+}
+
+div.modal-form-container form select {
+  background-color: #212121;
+  color: #545353;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  width: 95%;
+  padding: 2px;
+  border-radius: 0;
+}
+
+div.modal-form-container form select:focus {
+  color: #fff;
+}
+
+button.btn-register {
+  border: 1px solid #f8da64;
+  color: #f8da64;
+  padding: 8px 120px;
+  border-radius: 30px;
+}
+
+button.btn-register:hover {
+  border: 1px solid #f8da64;
+  color: #f8da64;
+}
+
+button.modal-close-btn {
+  background-color: #212121;
+}
+/* Form section ends here */
+
+/* offer timer section starts here */
+div.offer-timer {
+  justify-content: space-between;
+}
+div.time-container .number {
+  font-size: 85px;
+  font-weight: 500;
+}
+
+div.time-container .text {
+  font-size: 26px;
+}
+/* offer timer section ends here */
 
 /* Application and offer Media Queries section starts here */
 
@@ -314,6 +424,24 @@ a.apply-btn {
 
   ul.application-section-list li {
     font-size: medium;
+  }
+
+  div.offer-timer-section p:first-child {
+    text-align: center;
+  }
+
+  div.offer-timer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  div.time-container .number {
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  div.time-container .text {
+    font-size: 20px;
   }
 }
 /* Application and offer Media Queries section ends here */

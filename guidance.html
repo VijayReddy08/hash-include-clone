@@ -278,6 +278,7 @@
                       type="text"
                       name="name"
                       id="name"
+                      class="form-control"
                       placeholder="Enter your name"
                       required
                     />
@@ -292,6 +293,7 @@
                       type="email"
                       name="email"
                       id="email"
+                      class="form-control"
                       placeholder="Enter your email address"
                       required
                     />
@@ -307,6 +309,7 @@
                       type="tel"
                       name="phone"
                       id="phone"
+                      class="form-control"
                       placeholder="1234567890"
                       required
                     />
@@ -316,7 +319,7 @@
                     <label for="tag">Tag</label>
                   </p>
                   <p>
-                    <select name="tag" id="tag">
+                    <select name="tag" id="tag" class="form-select">
                       <option value="select">select</option>
                       <option value="Programming">Programming</option>
                       <option value="Career">Career</option>
@@ -330,7 +333,14 @@
                   </p>
 
                   <p><label for="year">Passed out year</label></p>
-                  <p><input type="month" name="year" id="year" /></p>
+                  <p>
+                    <input
+                      type="month"
+                      name="year"
+                      id="year"
+                      class="form-control"
+                    />
+                  </p>
 
                   <p>
                     <label for="question"
@@ -342,6 +352,7 @@
                     <textarea
                       name="question"
                       id="auestion"
+                      class="form-control"
                       placeholder="Your career query"
                       rows="5"
                       cols="35"

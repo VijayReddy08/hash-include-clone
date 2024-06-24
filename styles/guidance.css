@@ -58,6 +58,13 @@ div.form-container form label {
   font-size: 15px;
 }
 
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+div.form-container form textarea::placeholder {
+  color: #545353;
+}
+
 div.form-container form input {
   background-color: #212121;
   color: #fff;
@@ -66,6 +73,12 @@ div.form-container form input {
   width: 94%;
   padding: 4px;
   padding-left: 0;
+  border-radius: 0;
+}
+
+div.form-container form input:focus {
+  background-color: #212121;
+  color: #fff;
 }
 
 input[type="month"]::-webkit-calendar-picker-indicator {
@@ -85,15 +98,26 @@ div.form-container form textarea {
   resize: vertical;
   padding: 3px;
   color: #fff;
+  border-radius: 0;
+}
+
+div.form-container form textarea:focus {
+  background-color: #212121;
+  color: #fff;
 }
 
 div.form-container form select {
   background-color: #212121;
-  color: #fff;
+  color: #545353;
   border: 0;
   border-bottom: 1px solid #fff;
   width: 95%;
   padding: 2px;
+  border-radius: 0;
+}
+
+div.form-container form select:focus {
+  color: #fff;
 }
 
 button.send-btn {
