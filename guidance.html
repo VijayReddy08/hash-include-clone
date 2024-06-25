@@ -29,7 +29,7 @@
     <header>
       <section class="container-fluid primary-navbar-section">
         <!-- <div class="container"> -->
-        <nav class="navbar navbar-expand-lg w-75 mx-auto my-5 fs-5">
+        <nav class="navbar navbar-expand-lg primary-navbar mx-auto my-5 fs-5">
           <div class="container-fluid">
             <a class="navbar-brand pe-5 me-5" href="#"
               ><img src="assets/hash-include-logo.svg" alt="logo"
@@ -62,7 +62,7 @@
                   <a class="nav-link text-white" href="about.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Career Guidance</a>
+                  <a class="nav-link active-link" href="#">Career Guidance</a>
                 </li>
               </ul>
             </div>
@@ -88,7 +88,7 @@
       <section class="queries-and-form-section mt-3">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-9">
+            <div class="col-xxl-9">
               <!-- Query - 1 -->
               <div class="queries-inner-container py-4 px-3">
                 <div class="d-flex">
@@ -264,112 +264,118 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+
+            <!-- Ask us form section starts here -->
+            <div class="col-xxl-3">
               <div class="form-container px-3 pt-4">
-                <h5 class="fw-light mb-3">ASK US</h5>
-                <form>
-                  <p>
-                    <label for="name"
-                      >Full name <span class="text-danger">*</span></label
-                    >
-                  </p>
-                  <p>
-                    <input
-                      type="text"
-                      name="name"
-                      id="name"
-                      class="form-control"
-                      placeholder="Enter your name"
-                      required
-                    />
-                  </p>
-                  <p>
-                    <label for="email"
-                      >Email address <span class="text-danger">*</span></label
-                    >
-                  </p>
-                  <p>
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      class="form-control"
-                      placeholder="Enter your email address"
-                      required
-                    />
-                  </p>
+                <div class="gform-inner-container">
+                  <h5 class="fw-light mb-3">ASK US</h5>
+                  <form>
+                    <p>
+                      <label for="name"
+                        >Full name <span class="text-danger">*</span></label
+                      >
+                    </p>
+                    <p>
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        class="form-control"
+                        placeholder="Enter your name"
+                        required
+                      />
+                    </p>
+                    <p>
+                      <label for="email"
+                        >Email address <span class="text-danger">*</span></label
+                      >
+                    </p>
+                    <p>
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        class="form-control"
+                        placeholder="Enter your email address"
+                        required
+                      />
+                    </p>
 
-                  <p>
-                    <label for="phone"
-                      >Phone Number <span class="text-danger">*</span></label
-                    >
-                  </p>
-                  <p>
-                    <input
-                      type="tel"
-                      name="phone"
-                      id="phone"
-                      class="form-control"
-                      placeholder="1234567890"
-                      required
-                    />
-                  </p>
+                    <p>
+                      <label for="phone"
+                        >Phone Number <span class="text-danger">*</span></label
+                      >
+                    </p>
+                    <p>
+                      <input
+                        type="tel"
+                        name="phone"
+                        id="phone"
+                        class="form-control"
+                        placeholder="1234567890"
+                        required
+                      />
+                    </p>
 
-                  <p>
-                    <label for="tag">Tag</label>
-                  </p>
-                  <p>
-                    <select name="tag" id="tag" class="form-select">
-                      <option value="select">select</option>
-                      <option value="Programming">Programming</option>
-                      <option value="Career">Career</option>
-                      <option value="Career gap">Career gap</option>
-                      <option value="Testing">Testing</option>
-                      <option value="AI">AI</option>
-                      <option value="Dropout">Dropout</option>
-                      <option value="Designing">Designing</option>
-                      <option value="Other">Other</option>
-                    </select>
-                  </p>
+                    <p>
+                      <label for="tag">Tag</label>
+                    </p>
+                    <p>
+                      <select name="tag" id="tag" class="form-select">
+                        <option value="select">select</option>
+                        <option value="Programming">Programming</option>
+                        <option value="Career">Career</option>
+                        <option value="Career gap">Career gap</option>
+                        <option value="Testing">Testing</option>
+                        <option value="AI">AI</option>
+                        <option value="Dropout">Dropout</option>
+                        <option value="Designing">Designing</option>
+                        <option value="Other">Other</option>
+                      </select>
+                    </p>
 
-                  <p><label for="year">Passed out year</label></p>
-                  <p>
-                    <input
-                      type="month"
-                      name="year"
-                      id="year"
-                      class="form-control"
-                    />
-                  </p>
+                    <p><label for="year">Passed out year</label></p>
+                    <p>
+                      <input
+                        type="month"
+                        name="year"
+                        id="year"
+                        class="form-control"
+                      />
+                    </p>
 
-                  <p>
-                    <label for="question"
-                      >Please describe your Concern/Question
-                      <span class="text-danger">*</span>
-                    </label>
-                  </p>
-                  <p>
-                    <textarea
-                      name="question"
-                      id="auestion"
-                      class="form-control"
-                      placeholder="Your career query"
-                      rows="5"
-                      cols="35"
-                      required
-                    ></textarea>
-                  </p>
+                    <p>
+                      <label for="question"
+                        >Please describe your Concern/Question
+                        <span class="text-danger">*</span>
+                      </label>
+                    </p>
+                    <p>
+                      <textarea
+                        name="question"
+                        id="auestion"
+                        class="form-control"
+                        placeholder="Your career query"
+                        rows="5"
+                        cols="35"
+                        required
+                      ></textarea>
+                    </p>
 
-                  <p>
-                    <button type="button" class="btn send-btn">Send</button>
-                  </p>
+                    <p>
+                      <button type="button" class="btn send-btn">Send</button>
+                    </p>
 
-                  <p class="mb-0 py-3">
-                    <span class="text-danger">*</span> indicates required fields
-                  </p>
-                </form>
+                    <p class="mb-0 py-3">
+                      <span class="text-danger">*</span> indicates required
+                      fields
+                    </p>
+                  </form>
+                </div>
               </div>
             </div>
+            <!-- Ask us form section starts here -->
           </div>
         </div>
       </section>
@@ -380,30 +386,33 @@
     <footer class="footer-section">
       <div class="container mt-5 py-5">
         <div class="row pt-5 pb-4">
-          <div class="col-4 contact-info">
-            <img src="assets/footer-logo.svg" alt="footer-logo" />
-            <p class="mt-3 mb-2">
-              <img src="assets/location.svg" alt="Loaction image" />
-              <span>Address:</span>
-            </p>
-            <p class="ps-3 w-75">
-              Hash Include 01 & 302, Surya pearl building,raidurg, circle 19
-              hyderabad - 500018
-            </p>
-            <a href="tel:+917416199101">
-              <img src="assets/Calling.svg" alt="Calling image" />
-              <span>+917416199101</span>
-            </a>
-            <p class="mt-3">
-              <img src="assets/time.svg" alt="Time image" />
-              <span>Response hours: 9 am to 7 pm</span>
-            </p>
-            <a href="mailto:info@hashinclude.info"
-              ><img src="assets/mail.svg" alt="Mail image" />
-              <span>Email: info@hashinclude.info</span></a
-            >
+          <div class="col-10 mx-auto col-lg-4">
+            <div class="inner-container mb-4 mb-md-0 contact-info">
+              <img src="assets/footer-logo.svg" alt="footer-logo" />
+              <p class="mt-3 mb-2">
+                <img src="assets/location.svg" alt="Loaction image" />
+                <span>Address:</span>
+              </p>
+              <p class="ps-3">
+                Hash Include 01 & 302, Surya pearl building,raidurg, circle 19
+                hyderabad - 500018
+              </p>
+              <a href="tel:+917416199101">
+                <img src="assets/Calling.svg" alt="Calling image" />
+                <span>+917416199101</span>
+              </a>
+              <p class="mt-3">
+                <img src="assets/time.svg" alt="Time image" />
+                <span>Response hours: 9 am to 7 pm</span>
+              </p>
+              <a href="mailto:info@hashinclude.info"
+                ><img src="assets/mail.svg" alt="Mail image" />
+                <span>Email: info@hashinclude.info</span></a
+              >
+            </div>
           </div>
-          <div class="col-2 ps-5 courses-footer">
+
+          <div class="col-5 mx-auto mt-3 mt-lg-0 col-lg-2 ps-5 courses-footer">
             <p class="text-black fw-semibold">Courses</p>
             <p>
               <a class="text-decoration-none text-black fw-light" href="#"
@@ -426,24 +435,22 @@
               >
             </p>
           </div>
-          <div class="col-2 footer-links">
-            <p class="text-black fw-semibold">Links</p>
-            <p>
-              <a
-                class="text-decoration-none text-black fw-light"
-                href="about.html"
-                >About Us</a
-              >
-            </p>
-            <p>
-              <a
-                class="text-decoration-none text-black fw-light"
-                href="guidance.html"
-                >Career Guidance</a
-              >
-            </p>
+          <div class="col-5 mx-auto mt-3 mt-lg-0 col-lg-2 footer-links">
+            <div class="inner-container ac-links">
+              <p class="text-black fw-semibold">Links</p>
+              <p>
+                <a class="text-decoration-none text-black fw-light" href="#"
+                  >About Us</a
+                >
+              </p>
+              <p>
+                <a class="text-decoration-none text-black fw-light" href="#"
+                  >Career Guidance</a
+                >
+              </p>
+            </div>
           </div>
-          <div class="col-4 maps">
+          <div class="col-10 m-auto text-center col-lg-4 maps">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5200.451197299712!2d78.3900038460928!3d17.44710862660464!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9158f201b205%3A0x11bbe7be7792411b!2sMadhapur%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1716829353590!5m2!1sen!2sin"
               width="300"

@@ -9,6 +9,7 @@ body {
 /* chatbot animation starts here */
 div.chatbot {
   position: fixed;
+  cursor: pointer;
   /* bottom: 30px; */
   right: 0;
   z-index: 1;
@@ -30,6 +31,12 @@ div.chatbot {
 /* chatbot animation ends here */
 
 /* header section starts here */
+
+a.active-link,
+a.active-link:hover {
+  color: #f8da64;
+}
+
 section.header-section {
   border-radius: 0 0 45px 45px;
 }
@@ -67,10 +74,26 @@ div.explore-more-circle {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
+  div.banner-sub-image {
+    max-width: 165px;
+  }
+
+  button.explore-path-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
   div.explore-more-circle {
-    /* padding: 15px; */
-    /* max-width: 140px; */
+    padding: 20px;
+    max-width: 175px;
+    left: 39%;
+    bottom: -8%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  div.explore-more-circle {
     left: 37%;
     bottom: -18%;
   }
@@ -81,9 +104,9 @@ div.explore-more-circle {
 /* header section ends here */
 
 /* popular courses section starts here */
-div.popular-courses-dropdown-container {
+/* div.popular-courses-dropdown-container {
   display: none;
-}
+} */
 
 div.course-details {
   background-color: #212121;
@@ -150,6 +173,11 @@ div.popular-courses-dropdown-container
 /* popular courses Media Queries section starts here */
 
 @media screen and (max-width: 576px) {
+  div.student-card-icons {
+    top: -25px;
+    left: 25%;
+    padding: 10px 14px;
+  }
 }
 /* popular courses Media Queries section ends here */
 
@@ -203,7 +231,7 @@ p.why-we-so-description {
 
 @media screen and (max-width: 576px) {
   span.yellow-line {
-    height: 3px;
+    height: 4px;
     margin-right: 10px;
   }
 
@@ -276,7 +304,7 @@ div.hashinclude-stats-card h2 span {
 
 /* About us Media Queries section starts here */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 991px) {
   p.about-us-info-p {
     width: 100%;
   }
@@ -416,7 +444,7 @@ div.time-container .text {
 
 /* Application and offer Media Queries section starts here */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
   div.application-description h2 {
     font-size: 22px;
     font-weight: 700;

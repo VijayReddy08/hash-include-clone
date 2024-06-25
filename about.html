@@ -29,7 +29,7 @@
     <header>
       <section class="container-fluid primary-navbar-section">
         <!-- <div class="container"> -->
-        <nav class="navbar navbar-expand-lg w-75 mx-auto my-5 fs-5">
+        <nav class="navbar navbar-expand-lg primary-navbar mx-auto my-5 fs-5">
           <div class="container-fluid">
             <a class="navbar-brand pe-5 me-5" href="#"
               ><img src="assets/hash-include-logo.svg" alt="logo"
@@ -59,7 +59,7 @@
                   <a class="nav-link text-white" href="courses.html">Courses</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">About Us</a>
+                  <a class="nav-link active-link" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white" href="guidance.html"
@@ -82,14 +82,15 @@
         <section class="about-us-section py-5">
           <div class="container-fluid pt-4 pb-5">
             <div class="row">
-              <div class="col-6 about-us-image">
+              <div class="col-lg-6 about-us-image">
                 <img
                   src="assets/aboutus.svg"
                   alt="About Us image"
                   width="460"
+                  class="img-fluid"
                 />
               </div>
-              <div class="col-6 about-us-description">
+              <div class="col-lg-6 mt-3 mt-lg-0 about-us-description">
                 <div>
                   <span class="about-us-line yellow-line"></span>
                   <span class="about-us-title title fw-lighter">About Us</span>
@@ -110,9 +111,9 @@
             </div>
           </div>
           <div
-            class="d-flex justify-content-between mt-2 pt-2 pb-5 px-4 hashinclude-stats-cards-container border-bottom"
+            class="d-flex justify-content-between flex-wrap mt-2 pt-2 pb-5 px-4 hashinclude-stats-cards-container border-bottom"
           >
-            <div class="hashinclude-stats-card text-center">
+            <div class="hashinclude-stats-card text-center me-4 me-lg-0">
               <h2>2<span class="stats-style">+</span></h2>
               <p class="fw-lighter mt-3">Years of experience</p>
             </div>
@@ -120,7 +121,7 @@
               <h2>10<span class="stats-style">k</span></h2>
               <p class="fw-lighter mt-3">Students worldwide</p>
             </div>
-            <div class="hashinclude-stats-card text-center">
+            <div class="hashinclude-stats-card text-center me-4 me-lg-0">
               <h2>5<span class="stats-style">+</span></h2>
               <p class="fw-lighter mt-3">Class subjects</p>
             </div>
@@ -140,16 +141,14 @@
               <div class="why-us-line-img">
                 <img src="assets/why-us-line.svg" alt="Why us line image" />
               </div>
-              <p class="w-50 mx-auto my-4 fw-lighter">
+              <p class="mx-auto my-4 fw-lighter our-team-intro">
                 Experience expert-led IT education tailored to your needs. Our
                 proven track record and flexible learning options empower your
                 journey to success.
               </p>
             </div>
-            <div
-              class="d-flex justify-content-between flex-wrap member-cards-container my-5"
-            >
-              <div class="member-card position-relative">
+            <div class="d-flex flex-wrap member-cards-container my-5">
+              <div class="member-card position-relative mb-3">
                 <div class="member-details">
                   <h4>Sandeep Reddy</h4>
                   <p class="fw-light">UI/UX Designer</p>
@@ -160,7 +159,7 @@
                   alt="Member-1"
                 />
               </div>
-              <div class="member-card position-relative">
+              <div class="member-card position-relative mb-3">
                 <div class="member-details">
                   <h4>Keerti K</h4>
                   <p class="fw-light">HR</p>
@@ -171,7 +170,7 @@
                   alt="Member-2"
                 />
               </div>
-              <div class="member-card position-relative">
+              <div class="member-card position-relative mb-3">
                 <div class="member-details">
                   <h4>Naveen Kumar</h4>
                   <p class="fw-light">Frontend Dev</p>
@@ -182,12 +181,10 @@
                   alt="Member-3"
                 />
               </div>
-            </div>
+              <!-- </div> -->
 
-            <div
-              class="d-flex justify-content-between flex-wrap me-cards-container my-5"
-            >
-              <div class="member-card position-relative">
+              <!-- <div class="d-flex flex-wrap member-cards-container my-5"> -->
+              <div class="member-card position-relative mb-3">
                 <div class="member-details">
                   <h4>Kamalnadh</h4>
                   <p class="fw-light">QA Enginner</p>
@@ -198,7 +195,7 @@
                   alt="Member-4"
                 />
               </div>
-              <div class="member-card position-relative">
+              <div class="member-card position-relative mb-3">
                 <div class="member-details">
                   <h4>Rajya Lakshmi</h4>
                   <p class="fw-light">Learning and Dev</p>
@@ -209,7 +206,7 @@
                   alt="Member-5"
                 />
               </div>
-              <div class="member-card position-relative">
+              <div class="member-card position-relative mb-3">
                 <div class="member-details">
                   <h4>Santosh Reddy</h4>
                   <p class="fw-light">Digital Marketer</p>
@@ -232,30 +229,33 @@
     <footer class="footer-section">
       <div class="container mt-5 py-5">
         <div class="row pt-5 pb-4">
-          <div class="col-4 contact-info">
-            <img src="assets/footer-logo.svg" alt="footer-logo" />
-            <p class="mt-3 mb-2">
-              <img src="assets/location.svg" alt="Loaction image" />
-              <span>Address:</span>
-            </p>
-            <p class="ps-3 w-75">
-              Hash Include 01 & 302, Surya pearl building,raidurg, circle 19
-              hyderabad - 500018
-            </p>
-            <a href="tel:+917416199101">
-              <img src="assets/Calling.svg" alt="Calling image" />
-              <span>+917416199101</span>
-            </a>
-            <p class="mt-3">
-              <img src="assets/time.svg" alt="Time image" />
-              <span>Response hours: 9 am to 7 pm</span>
-            </p>
-            <a href="mailto:info@hashinclude.info"
-              ><img src="assets/mail.svg" alt="Mail image" />
-              <span>Email: info@hashinclude.info</span></a
-            >
+          <div class="col-10 mx-auto col-lg-4">
+            <div class="inner-container mb-4 mb-md-0 contact-info">
+              <img src="assets/footer-logo.svg" alt="footer-logo" />
+              <p class="mt-3 mb-2">
+                <img src="assets/location.svg" alt="Loaction image" />
+                <span>Address:</span>
+              </p>
+              <p class="ps-3">
+                Hash Include 01 & 302, Surya pearl building,raidurg, circle 19
+                hyderabad - 500018
+              </p>
+              <a href="tel:+917416199101">
+                <img src="assets/Calling.svg" alt="Calling image" />
+                <span>+917416199101</span>
+              </a>
+              <p class="mt-3">
+                <img src="assets/time.svg" alt="Time image" />
+                <span>Response hours: 9 am to 7 pm</span>
+              </p>
+              <a href="mailto:info@hashinclude.info"
+                ><img src="assets/mail.svg" alt="Mail image" />
+                <span>Email: info@hashinclude.info</span></a
+              >
+            </div>
           </div>
-          <div class="col-2 ps-5 courses-footer">
+
+          <div class="col-5 mx-auto mt-3 mt-lg-0 col-lg-2 ps-5 courses-footer">
             <p class="text-black fw-semibold">Courses</p>
             <p>
               <a class="text-decoration-none text-black fw-light" href="#"
@@ -278,20 +278,22 @@
               >
             </p>
           </div>
-          <div class="col-2 footer-links">
-            <p class="text-black fw-semibold">Links</p>
-            <p>
-              <a class="text-decoration-none text-black fw-light" href="#"
-                >About Us</a
-              >
-            </p>
-            <p>
-              <a class="text-decoration-none text-black fw-light" href="#"
-                >Career Guidance</a
-              >
-            </p>
+          <div class="col-5 mx-auto mt-3 mt-lg-0 col-lg-2 footer-links">
+            <div class="inner-container ac-links">
+              <p class="text-black fw-semibold">Links</p>
+              <p>
+                <a class="text-decoration-none text-black fw-light" href="#"
+                  >About Us</a
+                >
+              </p>
+              <p>
+                <a class="text-decoration-none text-black fw-light" href="#"
+                  >Career Guidance</a
+                >
+              </p>
+            </div>
           </div>
-          <div class="col-4 maps">
+          <div class="col-10 m-auto text-center col-lg-4 maps">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5200.451197299712!2d78.3900038460928!3d17.44710862660464!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9158f201b205%3A0x11bbe7be7792411b!2sMadhapur%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1716829353590!5m2!1sen!2sin"
               width="300"

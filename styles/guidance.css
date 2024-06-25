@@ -6,6 +6,28 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+/* header section starts here */
+
+a.active-link,
+a.active-link:hover {
+  color: #f8da64;
+}
+
+nav.primary-navbar {
+  max-width: 80%;
+}
+
+/* header Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  nav.primary-navbar {
+    max-width: 100%;
+  }
+}
+/* header Media Queries section ends here */
+
+/* header section ends here */
+
 /* Guidance title section starts here */
 
 section.guidance-title-section {
@@ -99,6 +121,7 @@ div.form-container form textarea {
   padding: 3px;
   color: #fff;
   border-radius: 0;
+  max-width: 94%;
 }
 
 div.form-container form textarea:focus {
@@ -114,6 +137,7 @@ div.form-container form select {
   width: 95%;
   padding: 2px;
   border-radius: 0;
+  max-width: 94%;
 }
 
 div.form-container form select:focus {
@@ -131,6 +155,21 @@ button.send-btn:hover {
   border: 1px solid #f8da64;
   color: #f8da64;
 }
+
+/* Form Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  section.guidance-title-section {
+    background-position-x: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  div.gform-inner-container {
+    max-width: 75%;
+    margin: auto;
+  }
+}
+/* Form Media Queries section ends here */
 /* Form section ends here */
 
 /* Queries and form section ends here */
@@ -148,5 +187,14 @@ div.contact-info a {
   color: #0b7077;
   text-decoration: none;
 }
+
+/* Footer Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  footer.footer-section {
+    background-position-x: center;
+  }
+}
+/* Footer Media Queries section ends here */
 
 /* footer section ends here */

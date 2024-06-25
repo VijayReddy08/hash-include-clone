@@ -6,6 +6,28 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+/* header section starts here */
+
+a.active-link,
+a.active-link:hover {
+  color: #f8da64;
+}
+
+nav.primary-navbar {
+  max-width: 80%;
+}
+
+/* header Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  nav.primary-navbar {
+    max-width: 100%;
+  }
+}
+/* header Media Queries section ends here */
+
+/* header section ends here */
+
 /* About us and Our team section starts here */
 section.au-and-ot-section {
   background-color: #212121;
@@ -43,6 +65,15 @@ div.hashinclude-stats-card h2 span {
 /* About us section ends here */
 
 /* Our team section starts here */
+
+p.our-team-intro {
+  width: 50%;
+}
+
+div.member-cards-container {
+  justify-content: space-between;
+}
+
 div.member-details {
   position: absolute;
   top: 68px;
@@ -58,6 +89,31 @@ div.member-details h4 {
 div.member-details p {
   font-size: small;
 }
+
+/* Our team Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  p.our-team-intro {
+    width: 95%;
+  }
+
+  div.member-cards-container {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  p.our-team-intro {
+    width: 85%;
+  }
+
+  div.member-cards-container {
+    justify-content: space-around;
+  }
+}
+
+/* Our team Media Queries section ends here */
+
 /* Our team section ends here */
 
 /* footer section starts here */
@@ -73,5 +129,14 @@ div.contact-info a {
   color: #0b7077;
   text-decoration: none;
 }
+
+/* Footer Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  footer.footer-section {
+    background-position-x: center;
+  }
+}
+/* Footer Media Queries section ends here */
 
 /* footer section ends here */

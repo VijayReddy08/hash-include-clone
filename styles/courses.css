@@ -10,6 +10,27 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+/* header section starts here */
+a.active-link,
+a.active-link:hover {
+  color: #f8da64;
+}
+
+nav.primary-navbar {
+  max-width: 80%;
+}
+
+/* header Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  nav.primary-navbar {
+    max-width: 100%;
+  }
+}
+/* header Media Queries section ends here */
+
+/* header section ends here */
+
 /* all courses section starts here */
 div.course-details {
   background-color: #212121;
@@ -42,6 +63,48 @@ div.learn-more-btn a {
 div.learn-more-btn button:hover a {
   color: #000;
 }
+
+div.popular-courses-dropdown-container select.popular-courses-dropdown {
+  max-width: 90%;
+  margin: auto;
+  color: #fff;
+}
+
+div.popular-courses-dropdown-container
+  select.popular-courses-dropdown.form-select {
+  --bs-form-select-bg-img: url(../assets/select-expand-arrow.png);
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-image: var(--bs-form-select-bg-img),
+    var(--bs-form-select-bg-icon, none);
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 20px 18px;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* all courses Media Queries section starts here */
+
+@media screen and (max-width: 1400px) {
+  div.student-card-icons {
+    top: -25px;
+    left: 25%;
+    padding: 10px 14px;
+  }
+}
+/* all courses Media Queries section ends here */
+
 /* all courses section ends here */
 
 /* front end course section starts here */
@@ -88,9 +151,9 @@ div.cpa-card {
   background-color: #3442d9;
 }
 
-ul.cpa-list {
+/* ul.cpa-list {
   min-height: 188px;
-}
+} */
 
 ul.cpa-list li {
   margin-top: 22px;
@@ -100,6 +163,15 @@ div.explore-other-courses-links a {
   color: #f8da63;
   font-size: 19px;
 }
+
+/* front end Media Queries section starts here */
+
+@media screen and (min-width: 1200px) {
+  ul.cpa-list {
+    min-height: 188px;
+  }
+}
+/* front end Media Queries section ends here */
 
 /* front end course section ends here */
 
@@ -116,5 +188,14 @@ div.contact-info a {
   color: #0b7077;
   text-decoration: none;
 }
+
+/* Footer Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  footer.footer-section {
+    background-position-x: center;
+  }
+}
+/* Footer Media Queries section ends here */
 
 /* footer section ends here */
