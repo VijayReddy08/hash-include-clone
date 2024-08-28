@@ -114,18 +114,89 @@ div.fe-course-container {
 }
 
 div.enroll-now-btn button {
+  color: #f8da64;
+  font-size: 17px;
+  padding: 11px 24px;
   border: 1px solid #f8da64;
 }
 
 div.enroll-now-btn button:hover {
   background: #f8da64;
+  color: #000;
 }
 
-div.enroll-now-btn button {
-  color: #f8da64;
-  font-size: 17px;
-  padding: 11px 24px;
+/* Modal Form section starts here */
+div.modal-form-container {
+  background-color: #212121;
 }
+
+div.modal-form-container form label {
+  font-size: 15px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+div.modal-form-container textarea::placeholder {
+  color: #545353;
+}
+
+div.modal-form-container form input,
+div.modal-form-container form input:focus {
+  background-color: #212121;
+  color: #fff;
+  border: 0;
+  border-bottom: 1px solid white;
+  /* width: 94%; */
+  padding: 4px;
+  padding-left: 0;
+  border-radius: 0;
+}
+
+div.modal-form-container form textarea,
+div.modal-form-container form textarea:focus {
+  background-color: #212121;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  padding: 3px;
+  color: #fff;
+  border-radius: 0;
+}
+
+div.modal-form-container form select {
+  background-color: #212121;
+  color: #545353;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  /* width: 95%; */
+  padding: 4px;
+  border-radius: 0;
+}
+
+div.modal-form-container form select#course {
+  color: #fff;
+}
+
+div.modal-form-container form select:focus {
+  color: #fff;
+}
+
+button.btn-register {
+  border: 1px solid #f8da64;
+  color: #f8da64;
+  padding: 8px 120px;
+  border-radius: 30px;
+}
+
+button.btn-register:hover {
+  border: 1px solid #f8da64;
+  color: #f8da64;
+}
+
+button.modal-close-btn {
+  background-color: #212121;
+}
+/* Modal Form section ends here */
 
 section.fe-course-section p {
   font-size: 14px;

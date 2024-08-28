@@ -6,6 +6,14 @@
     <title>
       Hash Include | Elevate Your Skills with Hash Include's Guidance
     </title>
+    <meta
+      name="description"
+      content="Linked-In Networking. Resume Building. Real-Time Projects. Pitching Startup Ideas. Expert Instructor. Interactive Learning. Verified Certificate. Why We Stand Out. Best Learning Experience."
+    />
+    <meta
+      name="keywords"
+      content="Hash Include, Frontend, Fullstack, Madhapur"
+    />
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
     <!-- Bootstrap CSS CDN starts here -->
     <link
@@ -28,7 +36,6 @@
     <!-- header section starts here -->
     <header>
       <section class="container-fluid primary-navbar-section">
-        <!-- <div class="container"> -->
         <nav class="navbar navbar-expand-lg primary-navbar mx-auto my-5 fs-5">
           <div class="container-fluid">
             <a class="navbar-brand pe-5 me-5" href="index.html"
@@ -70,7 +77,6 @@
             </div>
           </div>
         </nav>
-        <!-- </div> -->
       </section>
     </header>
     <!-- header section ends here -->
@@ -315,12 +321,186 @@
 
           <div class="enroll-now-btn text-end my-4">
             <button
+              class="btn"
               type="button"
-              class="btn btn-outline-warning btn-lg fw-light px-4"
+              title="Click to enroll for the course"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
             >
               Enroll now
             </button>
           </div>
+
+          <!-- Modal start -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content modal-form-container p-4 rounded-0">
+                <div class="modal-header border-0">
+                  <h1 class="modal-title fs-2" id="exampleModalLabel">
+                    Enroll Here
+                  </h1>
+                  <button
+                    type="button"
+                    class="border-0 ms-auto modal-close-btn"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <img src="assets/cross.svg" alt="cross" />
+                  </button>
+                </div>
+
+                <!-- modal body start -->
+                <div class="modal-body">
+                  <form>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="mb-3">
+                          <label for="name" class="form-label">
+                            Full Name <span class="text-danger">*</span>
+                          </label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="name"
+                            placeholder="Enter Your Name"
+                            aria-describedby="fullname"
+                          />
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="email" class="form-label"
+                            >Email address
+                            <span class="text-danger">*</span></label
+                          >
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="Enter Your Email"
+                            aria-describedby="emailHelp"
+                          />
+                        </div>
+
+                        <div class="mb-3">
+                          <label for="education" class="form-label"
+                            >Please select your Education qualification</label
+                          >
+                          <select
+                            name="education"
+                            id="education"
+                            class="form-select"
+                            aria-label="Default select example"
+                          >
+                            <option value="" disabled selected>Select</option>
+                            <option value="pursuing">pursuing</option>
+                            <option value="Bachelor's">Bachelor's</option>
+                            <option value="MCA">MCA</option>
+                            <option value="Degree">Degree</option>
+                            <option value="Diploma">Diploma</option>
+                            <option value="Other">Other</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="mb-3">
+                          <label for="phone" class="form-label">
+                            Phone number (whatsapp no)
+                            <span class="text-danger">*</span>
+                          </label>
+                          <input
+                            type="tel"
+                            class="form-control"
+                            id="phone"
+                            placeholder="Enter Your Contact Number"
+                            aria-describedby="phone"
+                          />
+                        </div>
+                        <div class="mb-3">
+                          <label for="course" class="form-label"
+                            >Course Interested in</label
+                          >
+                          <select
+                            name="course"
+                            id="course"
+                            class="form-select"
+                            aria-label="Default select example"
+                          >
+                            <option value="">Select</option>
+                            <option value="UI/UX">UI/UX designing</option>
+                            <option value="Frontend" selected>
+                              Frontend development
+                            </option>
+                            <option value="Fullstack">
+                              Fullstack development
+                            </option>
+                            <option value="Testing">
+                              Testing (Manual + Automation)
+                            </option>
+                          </select>
+                        </div>
+                        <div class="mb-3">
+                          <label for="time" class="form-label"
+                            >Best time to reach out</label
+                          >
+                          <select
+                            name="time"
+                            id="time"
+                            class="form-select"
+                            aria-label="Default select example"
+                          >
+                            <option value="">Select</option>
+                            <option value="9 AM" selected>9 AM</option>
+                            <option value="10 AM">10 AM</option>
+                            <option value="11 AM">11 AM</option>
+                            <option value="12 AM">12 AM</option>
+                            <option value="1 PM">1 PM</option>
+                            <option value="2 PM">2 PM</option>
+                            <option value="3 PM">3 PM</option>
+                            <option value="4 PM">4 PM</option>
+                            <option value="5 PM">5 PM</option>
+                            <option value="6 PM">6 PM</option>
+                            <option value="7 PM">7 PM</option>
+                            <option value="8 PM">8 PM</option>
+                            <option value="9 PM">9 PM</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="mb-3">
+                          <label for="message" class="form-label"
+                            >Message</label
+                          >
+                          <textarea
+                            class="form-control"
+                            id="message"
+                            rows="3"
+                            placeholder="Your messsage here"
+                          ></textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- modal body end -->
+
+                <div class="modal-footer d-block text-center border-0">
+                  <button type="button" class="btn btn-register">
+                    Register
+                  </button>
+                  <p class="fw-lighter">
+                    <span class="text-danger">*</span> indicates required fields
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal end -->
 
           <div class="row course-description">
             <h5 class="fw-semibold fs-5 mb-3">Frontend development</h5>
@@ -513,22 +693,30 @@
           <div class="col-5 mx-auto mt-3 mt-lg-0 col-lg-2 ps-5 courses-footer">
             <p class="text-black fw-semibold">Courses</p>
             <p>
-              <a class="text-decoration-none text-black fw-light" href="#"
+              <a
+                class="text-decoration-none text-black fw-light"
+                href="courses.html"
                 >Frontend</a
               >
             </p>
             <p>
-              <a class="text-decoration-none text-black fw-light" href="#"
+              <a
+                class="text-decoration-none text-black fw-light"
+                href="courses.html"
                 >Fullstack</a
               >
             </p>
             <p>
-              <a class="text-decoration-none text-black fw-light" href="#"
+              <a
+                class="text-decoration-none text-black fw-light"
+                href="courses.html"
                 >UI/UX designing</a
               >
             </p>
             <p>
-              <a class="text-decoration-none text-black fw-light" href="#"
+              <a
+                class="text-decoration-none text-black fw-light"
+                href="courses.html"
                 >Testing</a
               >
             </p>
@@ -537,12 +725,16 @@
             <div class="inner-container ac-links">
               <p class="text-black fw-semibold">Links</p>
               <p>
-                <a class="text-decoration-none text-black fw-light" href="#"
+                <a
+                  class="text-decoration-none text-black fw-light"
+                  href="about.html"
                   >About Us</a
                 >
               </p>
               <p>
-                <a class="text-decoration-none text-black fw-light" href="#"
+                <a
+                  class="text-decoration-none text-black fw-light"
+                  href="guidance.html"
                   >Career Guidance</a
                 >
               </p>
