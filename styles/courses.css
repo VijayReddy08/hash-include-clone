@@ -11,10 +11,6 @@ body {
 }
 
 /* header section starts here */
-a.active-link,
-a.active-link:hover {
-  color: #f8da64;
-}
 
 nav.primary-navbar {
   max-width: 80%;
@@ -96,13 +92,13 @@ div.popular-courses-dropdown-container
 
 /* all courses Media Queries section starts here */
 
-@media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 576px) {
   div.student-card-icons {
     top: -25px;
     left: 25%;
     padding: 10px 14px;
   }
-}
+} */
 /* all courses Media Queries section ends here */
 
 /* all courses section ends here */

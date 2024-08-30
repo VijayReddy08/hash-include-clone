@@ -8,11 +8,6 @@ body {
 
 /* header section starts here */
 
-a.active-link,
-a.active-link:hover {
-  color: #f8da64;
-}
-
 section.header-section {
   border-radius: 0 0 45px 45px;
 }
@@ -45,12 +40,12 @@ div.explore-more-circle {
   div.explore-more-circle {
     padding: 15px;
     max-width: 140px;
-    left: 38%;
+    left: 34%;
     bottom: -8%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
   div.banner-sub-image {
     max-width: 165px;
   }
@@ -70,8 +65,10 @@ div.explore-more-circle {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   div.explore-more-circle {
-    left: 37%;
-    bottom: -18%;
+    left: 40%;
+    bottom: -14%;
+    padding: 25px;
+    max-width: 200px;
   }
 }
 
@@ -148,13 +145,19 @@ div.popular-courses-dropdown-container
 
 /* popular courses Media Queries section starts here */
 
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   div.student-card-icons {
     top: -25px;
-    left: 25%;
+    left: 14%;
     padding: 10px 14px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .popular-courses-navbar div {
+    max-width: 75%;
+  }
+} */
 /* popular courses Media Queries section ends here */
 
 /* popular courses section ends here */

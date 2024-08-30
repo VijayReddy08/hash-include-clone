@@ -42,6 +42,7 @@
 
     <!-- Custom CSS starts here -->
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/common-styles.css" />
   </head>
   <body>
     <!-- header section starts here -->
@@ -59,7 +60,7 @@
                   alt="Hash Include Logo"
               /></a>
               <button
-                class="navbar-toggler"
+                class="navbar-toggler hamburger-btn"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNav"
@@ -67,7 +68,9 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon bg-white"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav w-100 d-flex justify-content-between">
@@ -152,7 +155,7 @@
 
     <main>
       <!-- popular courses section starts here -->
-      <section class="popular-courses-section py-sm-3 my-md-5 py-md-5">
+      <section class="popular-courses-section py-sm-3 my-lg-5 py-md-5">
         <div class="popular-courses-heading mt-5 py-5 text-center">
           <h2 class="fw-semibold display-5">Popular Courses</h2>
           <div class="underline-image">
@@ -178,7 +181,7 @@
         <!-- extra small media dropdown ends here -->
 
         <div class="container d-none d-md-block popular-courses-navbar">
-          <div class="d-flex justify-content-evenly w-75 mx-auto">
+          <div class="d-flex justify-content-evenly mx-auto">
             <button type="button" class="btn btn-primary btn-sm px-4">
               All Programs
             </button>
@@ -205,7 +208,9 @@
         <div class="container course-details-cards-container pt-4 py-md-5">
           <div class="row">
             <!-- Column - 1 -->
-            <div class="col-11 mx-auto col-md-6 col-xxl-3 course-details-card">
+            <div
+              class="col-11 mx-auto mx-md-0 col-md-6 col-xxl-3 fe course-details-card"
+            >
               <div class="inner-container mb-4">
                 <div class="course-img">
                   <img
@@ -249,7 +254,9 @@
             </div>
 
             <!-- Column-2 -->
-            <div class="col-11 m-auto col-md-6 col-xxl-3 course-details-card">
+            <div
+              class="col-11 mx-auto mx-md-0 col-md-6 col-xxl-3 ui course-details-card"
+            >
               <div class="inner-container mb-4">
                 <div class="course-img">
                   <img
@@ -294,7 +301,9 @@
             </div>
 
             <!-- Column-3 -->
-            <div class="col-11 m-auto col-md-6 col-xxl-3 course-details-card">
+            <div
+              class="col-11 mx-auto mx-md-0 col-md-6 col-xxl-3 test course-details-card"
+            >
               <div class="inner-container mb-4">
                 <div class="course-img">
                   <img
@@ -339,7 +348,9 @@
             </div>
 
             <!-- Column-4 -->
-            <div class="col-11 m-auto col-md-6 col-xxl-3 course-details-card">
+            <div
+              class="col-11 mx-auto mx-md-0 col-md-6 col-xxl-3 full course-details-card"
+            >
               <div class="inner-container mb-4">
                 <div class="course-img">
                   <img
@@ -1115,5 +1126,8 @@
       </div>
     </footer>
     <!-- footer section ends here -->
+
+    <!-- Custom Javascript -->
+    <script src="scripts/script.js"></script>
   </body>
 </html>

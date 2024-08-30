@@ -8,11 +8,6 @@ body {
 
 /* header section starts here */
 
-a.active-link,
-a.active-link:hover {
-  color: #f8da64;
-}
-
 nav.primary-navbar {
   max-width: 80%;
 }

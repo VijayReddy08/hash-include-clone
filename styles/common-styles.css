@@ -1,4 +1,40 @@
+button.hamburger-btn:focus {
+  border: 0.5px solid white;
+}
+
+span.hamburger {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+  margin: 4px 0 4px 0;
+}
+
 a.active-link,
 a.active-link:hover {
   color: #f8da64;
 }
+/* popular courses Media Queries section starts here */
+
+@media screen and (max-width: 576px) {
+  div.student-card-icons {
+    top: -25px;
+    left: 14%;
+    padding: 10px 14px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1399px) {
+  div.student-card-icons {
+    top: -25px;
+    left: 24%;
+    padding: 10px 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .popular-courses-navbar div {
+    max-width: 75%;
+  }
+}
+/* popular courses Media Queries section ends here */
