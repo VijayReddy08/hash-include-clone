@@ -79,3 +79,29 @@ navLinks.forEach((element) => {
 document
   .querySelector(".popular-courses-dropdown")
   .addEventListener("change", (event) => popCoursesHandler(event));
+
+// Updating Offer Timer
+
+// Seconds
+setInterval(() => {
+  let sec = Number(document.querySelector(".seconds").innerText);
+  if (sec === 1) {
+    document.querySelector(".seconds").innerText = 60;
+    // Minutes
+    let min = Number(document.querySelector(".minutes").innerText);
+    if (min === 0) {
+      document.querySelector(".minutes").innerText = 59;
+      // Hours
+      let hour = Number(document.querySelector(".hours").innerText);
+      if (hour === 0) {
+        document.querySelector(".hours").innerText = 8;
+      } else {
+        document.querySelector(".hours").innerText = --hour;
+      }
+    } else {
+      document.querySelector(".minutes").innerText = --min;
+    }
+  } else {
+    document.querySelector(".seconds").innerText = --sec;
+  }
+}, 1000);
